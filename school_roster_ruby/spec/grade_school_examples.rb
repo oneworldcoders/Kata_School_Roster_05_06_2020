@@ -1,7 +1,4 @@
-require "rspec/autorun"
-require_relative "grade_school.rb"
-
-RSpec.describe School do
+RSpec.shared_examples "grade school" do
   context "students" do
     it "test_empty_grade" do
       expected_result = []
