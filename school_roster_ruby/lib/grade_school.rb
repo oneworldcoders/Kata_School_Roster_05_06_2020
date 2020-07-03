@@ -1,4 +1,4 @@
-class School
+class GradeSchool
   attr_reader :enrollments
 
   def initialize
