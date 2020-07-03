@@ -4,6 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby File.open(File.dirname(__FILE__) + "/.ruby-version", "rb") { |f| f.read.chomp }
 
 gem "activerecord"
+gem 'database_cleaner-active_record'
 gem "sqlite3"
 gem "standalone_migrations"
 gem "rspec"
