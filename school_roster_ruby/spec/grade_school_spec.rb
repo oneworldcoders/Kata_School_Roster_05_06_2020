@@ -1,4 +1,3 @@
-require "rspec/autorun"
 require "grade_school.rb"
 
 RSpec.describe School do
